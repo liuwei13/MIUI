@@ -1,0 +1,321 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head >
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <script type="text/javascript" src="../js/jquery-1.11.3.min.js">
+    </script>  
+    <script src="../js/bootstrap.js"></script>
+    <style type="text/css">
+        *{margin: 0px;padding: 0px;}
+        a{text-decoration: none;}
+        a:hover{text-decoration: none;}
+        ul{display: inline;}
+        ul li{display: inline;}
+        .top{background: #060606;height: 40px;width: 100%;position:relative;top: 0;}
+        .top-center{float: left;margin-left: 60px;}
+        .top-right{width: 400px;float: right;}
+        .top ul li{margin-right: 20px;}
+        .top ul li a{color: #b0b0b0;line-height: 40px;}
+        .top ul li a:hover{color: #fff;}
+        .header-left{width: 100px;float: left;}
+        .header-left a img{height: 55px;width: 55px;margin-top: 25px;margin-left: 20px;}
+        .header{height: 100px;width: 1226px;background: #fff;margin: 0 auto;border-bottom: 1px solid #ccc;}
+        .header-center{float: left;}
+        .header-center a{line-height: 100px;color: #333;font-size: 16px;}
+        .header-center li{margin-left: 20px;}
+        .container{width: 1226px;background: #fff;margin: 0 auto;padding: 0;}
+        .header-hide{width: 100%;background: #fff;height: 300px;display: none;position: absolute;z-index: 100;}
+        .header-hide ul{margin-left: 62px;}
+        .header-hide li{float: left;margin-top: 50px;}
+        .header-hide a img{height: 100px;width: 75px;}
+        .line{height:100px; width:1px; border-left:1px #ccc solid;float: left;margin: 0 60px;margin-top: 50px;}
+        .container-left{background: rgba(0,0,0,0.6);height: 460px;width: 234px;float: left;}
+        .container-left ul{padding-top: 20px;display: block;height: 460px;}
+        .container-left li{height: 42px;width: 100%;display: block;}
+        .container-left a{padding-left: 30px;height: 42px;line-height: 42px;color: #fff;}
+        .container-left span{margin-right: 30px;float: right;}
+        .container-left li:hover{background: #ff6700;}
+        .details{height: 460px;width: 600px;background: #fff;float: left;display: none;position: absolute;margin-left: 234px;z-index: 100;}
+        .container-right img{height: 460px;width: 992px;}
+        .carousel{width: 992px;float: left;height: 460px;}
+        .carousel img{height: 460px !important;}
+        .commodity{width: 1226px;margin: 0 auto;padding: 0; padding-top: 30px;background: #F5F5F5;height: 644px;}
+        .commodity img{width: 234px;height: 614px;}
+        .commodity-ul{height: 300px;}
+        .commodity-ul li{width: 234px;height: 300px;margin:0 7px;display: block;text-align: center;background: #fff;float: left;}
+        .commodity-ul img{width: 160px;height: 160px;padding-top: 20px;}
+        .commodity-ul li:hover{box-shadow: 0 0 10px #CCC;z-index: 2;}
+        .commodity-ul li:hover div{display: block;} /*当鼠标悬浮时，将div中的内容显示出来*/
+        .commodity-ul div{background: #ff6700;width: 234px;margin-top: -37px;display: none;}
+    </style> 
+    <script>  
+   
+    </script> 
+<body>
+<div>
+    <div class="top">
+        <div class="top-center">
+            <ul>
+                <li><a href="#">小米网</a></li>
+                <li><a href="#">MIUI</a></li>
+                <li><a href="#">米聊</a></li>
+                <li><a href="#">游戏</a></li>
+                <li><a href="#">多看阅读</a></li>
+                <li><a href="#">云服务</a></li>
+                <li><a href="#">小米移动版</a></li>
+                <li><a href="#">问题反馈</a></li>
+                <li><a href="#">Select Region</a></li>
+            </ul>
+        </div>
+        <div class="top-right">
+            <ul>
+                <li><a href="#">登陆</a></li>
+                <li><a href="#">注册</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="header">
+        <div class="header-left">
+            <a href="#"><img src="../images/1.jpg"/></a>
+        </div>
+        <div class="header-center">
+            <ul>
+                <li ><a class="phone" href="#">小米手机</a></li>
+                <li><a class="phone" href="#">红米手机</a></li>
+                <li><a class="phone" href="#">平板</a></li>
+                <li><a class="phone" href="#">电视</a></li>
+                <li><a class="phone" href="#">盒子 · 影音</a></li>
+                <li><a class="phone" href="#">路由器</a></li>
+                <li><a class="phone" href="#">只能硬件</a></li>
+                <li><a href="#">服务</a></li>
+                <li><a href="#">社区</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="header-hide">
+        <ul>
+            <li style="margin-left:100px">
+                <a href="#"><img src="../images/1.jpg"></a>
+            </li>
+            <div class="line"></div>
+            <li>
+                <a href="#"><img src="../images/2.jpg"></a>
+            </li>
+            <div class="line"></div>
+            <li>
+                <a href="#"><img src="../images/3.jpg"></a>
+            </li>
+            <div class="line"></div>
+            <li>
+                <a href="#"><img src="../images/4.jpg"></a>
+            </li>
+            <div class="line"></div>
+            <li>
+                <a href="#"><img src="../images/5.jpg"></a>
+            </li>
+            <div class="line"></div>
+            <li>
+                <a href="#"><img src="../images/6.jpg"></a>
+            </li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="container-left">
+            <ul>
+                <li class="title"><a href="#">手机 平板 电话卡<span>></span></a></li>
+                <li class="title"><a href="#">电视 盒子<span>></span></a></li>
+                <li class="title"><a href="#">路由器 只能硬件<span>></span></a></li>
+                <li class="title"><a href="#">移动电源 插线板<span>></span></a></li>
+                <li class="title"><a href="#">耳机 音箱<span>></span></a></li>
+                <li class="title"><a href="#">电池 存储卡<span>></span></a></li>
+                <li class="title"><a href="#">保护套 后盖<span>></span></a></li>
+                <li class="title"><a href="#">贴膜 其他配件<span>></span></a></li>
+                <li class="title"><a href="#">米兔 服装<span>></span></a></li>
+                <li class="title"><a href="#">箱包 其他周边<span>></span></a></li>
+            </ul>
+        </div>
+        <div class="details">
+            手机
+        </div>
+        <div class="details">
+            电视
+        </div>
+        <!-- <div class="container-right" style="float:left;width:992px;height:460px;">
+            <a href="#" class="active"><img src="http://i3.mifile.cn/a4/351823d8-d999-4c3f-97c9-1050417fe60d" /></a>
+            <a href="#" class="carousel"><img src="http://i3.mifile.cn/a4/fd878258-2671-41b9-9426-c567055ea92d" /></a>
+            <a href="#" class="carousel"><img src="http://i3.mifile.cn/a4/d7134256-c259-43d4-b3e6-4746c22b59f8" /></a>
+            <a href="#" class="carousel"><img src="http://i3.mifile.cn/a4/89ace49d-9323-4d33-b158-0b539cee1f71" /></a>
+            <a href="#" class="carousel"><img src="http://i3.mifile.cn/a4/ad55a072-e11e-4b98-ba1a-e36d6e9f722d" /></a>
+            <div class="carouselup">
+                <span>s</span>
+            </div>
+            <div class="carouselnext">
+                >
+            </div>
+            <div class="carouselimg">
+            
+            </div>
+        </div> -->
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="http://i3.mifile.cn/a4/351823d8-d999-4c3f-97c9-1050417fe60d" alt="...">
+                </div>
+                <div class="item">
+                    <img src="http://i3.mifile.cn/a4/fd878258-2671-41b9-9426-c567055ea92d" alt="...">
+                </div>
+                <div class="item">
+                    <img src="http://i3.mifile.cn/a4/d7134256-c259-43d4-b3e6-4746c22b59f8" alt="...">
+                </div>
+                <div class="item">
+                    <img src="http://i3.mifile.cn/a4/89ace49d-9323-4d33-b158-0b539cee1f71" alt="...">
+                </div>
+                <div class="item">
+                    <img src="http://i3.mifile.cn/a4/ad55a072-e11e-4b98-ba1a-e36d6e9f722d" alt="...">
+                </div>
+            </div>
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">上一頁</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">下一頁</span>
+            </a>
+        </div>
+        
+    </div>
+    <div style="background:#F5F5F5;heoght:100%">
+        <div class="commodity">
+            <ul style="float:left;height:614px;">
+                <li><img src="http://i3.mifile.cn/a4/8c8ab84b-460a-4839-8061-8dda0541be7a"></li>
+            </ul>
+            <ul class="commodity-ul" style="float:left;">
+                <li>
+                    <img src="../images/1.jpg">
+                    <h3>米家压力IH电饭煲</h3>
+                    <p>真智能的压力 IH 电饭煲</p>
+                    <p style="color: #ff6700;">999元</p>
+                    <div>
+                        <span>美观小巧，便于携带，希望小米再接再厉！永远支持你！你...</span>
+                        <span> 来自于 888846438 的评价 </span>
+                    </div>
+                </li>
+                <li>
+                    <img src="../images/2.jpg">
+                    <h3>米家压力IH电饭煲</h3>
+                    <p>真智能的压力 IH 电饭煲</p>
+                    <p style="color: #ff6700;">999元</p>
+                    <div>
+                        <span>美观小巧，便于携带，希望小米再接再厉！永远支持你！你...</span>
+                        <span> 来自于 888846438 的评价 </span>
+                    </div>
+                </li>
+                <li>
+                    <img src="../images/3.jpg">
+                    <h3>米家压力IH电饭煲</h3>
+                    <p>真智能的压力 IH 电饭煲</p>
+                    <p style="color: #ff6700;">999元</p>
+                    <div>
+                        <span>美观小巧，便于携带，希望小米再接再厉！永远支持你！你...</span>
+                        <span> 来自于 888846438 的评价 </span>
+                    </div>
+                </li>
+                <li>
+                    <img src="../images/4.jpg">
+                    <h3>米家压力IH电饭煲</h3>
+                    <p>真智能的压力 IH 电饭煲</p>
+                    <p style="color: #ff6700;">999元</p>
+                    <div>
+                        <span>美观小巧，便于携带，希望小米再接再厉！永远支持你！你...</span>
+                        <span> 来自于 888846438 的评价 </span>
+                    </div>
+                </li>
+            </ul>
+            <ul class="commodity-ul" style="float:left;">
+                <li>
+                    <img src="../images/5.jpg">
+                    <h3>米家压力IH电饭煲</h3>
+                    <p>真智能的压力 IH 电饭煲</p>
+                    <p style="color: #ff6700;">999元</p>
+                    <div>
+                        <span>美观小巧，便于携带，希望小米再接再厉！永远支持你！你...</span>
+                        <span> 来自于 888846438 的评价 </span>
+                    </div>
+                </li>
+                <li>
+                    <img src="../images/6.jpg">
+                    <h3>米家压力IH电饭煲</h3>
+                    <p>真智能的压力 IH 电饭煲</p>
+                    <p style="color: #ff6700;">999元</p>
+                    <div>
+                        <span>美观小巧，便于携带，希望小米再接再厉！永远支持你！你...</span>
+                        <span> 来自于 888846438 的评价 </span>
+                    </div>
+                </li>
+                <li>
+                    <img src="../images/7.jpg">
+                    <h3>米家压力IH电饭煲</h3>
+                    <p>真智能的压力 IH 电饭煲</p>
+                    <p style="color: #ff6700;">999元</p>
+                    <div>
+                        <span>美观小巧，便于携带，希望小米再接再厉！永远支持你！你...</span>
+                        <span> 来自于 888846438 的评价 </span>
+                    </div>
+                </li>
+                <li>
+                    <img src="../images/8.jpg">
+                    <h3>米家压力IH电饭煲</h3>
+                    <p>真智能的压力 IH 电饭煲</p>
+                    <p style="color: #ff6700;">999元</p>
+                    <div>
+                        <span>美观小巧，便于携带，希望小米再接再厉！永远支持你！你...</span>
+                        <span> 来自于 888846438 的评价 </span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+<script type="text/javascript">
+    $(document).ready(function(){
+        window.onscroll = function(){
+            var top = document.getElementsByClassName("top");
+            var scrollTop = document.body.scrollTop|document.documentElement.scrollTop;
+            if(scrollTop>40){
+                top[0].style.position = "fixed";
+                top[0].style.zIndex = 200;
+            }else{
+                top[0].style.position = "relative";
+            }
+        }
+    })
+    $('.phone').mouseover(function(){
+        $('.header-hide').slideDown(1000); //fadeIn淡入
+    })
+    $('.phone').mouseout(function(){
+        $('.header-hide').slideUp(1000);  //fadeOut淡出
+    })
+    $('.title').mouseover(function(){
+        var tem = $(this).index();
+        var details = $("div[class='details']");
+        details[tem].style.display = "block";
+    })
+    $('.title').mouseout(function(){
+        var tem = $(this).index();
+        var details = $("div[class='details']");
+        details[tem].style.display = "none";
+    })
+
+</script>
+</html>
